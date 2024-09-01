@@ -15,3 +15,22 @@ def new_telco_data():
     '''
     return pd.read_sql(query, get_connection('telco_churn'))
 
+def get_telco_data():
+    '''
+    This function reads in iris data from Codeup database, writes data to
+    a csv file if a local file does not exist, and returns a df.
+    '''
+    if os.path.isfile('telco.csv'):
+        
+        # If csv file exists read in data from csv file.
+        df = pd.read_csv('telco.csv', index_col=0)
+        
+    else:
+        
+        # Read fresh data from db into a DataFrame
+        df = new_telco_data()
+        
+        # Cache data
+        df.to_csv('telco.csv')
+        
+    return df
