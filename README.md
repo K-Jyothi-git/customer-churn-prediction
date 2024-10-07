@@ -13,3 +13,10 @@
 **long-term success**.
 
 In this project, we will use statistical testing to analyze the key factors of customers who are more likely to churn, develop a classification model to predict churn based on those factors, and provide recommendations for retaining customers as well as predictions of churn for a list of customers (delivered via csv).
+
+## Business Goals
+- Find drivers for customer churn at Telco. Why are customers churning?
+
+- Construct a ML classification model that accurately predicts customer churn.
+
+- Deliver a report that a non-data scientist can read through and understand what steps were taken, why and what was the outcome?
