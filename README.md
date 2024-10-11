@@ -20,3 +20,12 @@ In this project, we will use statistical testing to analyze the key factors of c
 - Construct a ML classification model that accurately predicts customer churn.
 
 - Deliver a report that a non-data scientist can read through and understand what steps were taken, why and what was the outcome?
+
+## Initial Questions
+- Which variables are associated with churn?
+
+- Are average monthly charges higher for customers who churn?
+
+- Are tenure shorter for customer who churn?
+
+- Are additional services independent with churn?
