@@ -44,3 +44,13 @@ In this project, we will use statistical testing to analyze the key factors of c
 *Device Protection* | 1) Yes 2) No 3) No internet service | This indicates if the customer has device protection service
 *Streaming TV* | 1) Yes 2) No 3) No internet service | This indicates if the customer has streaming tv service
 *Streaming Movies* | 1) Yes 2) No 3) No internet service | This indicates if the customer has streaming movies service
+
+## Process
+#### Data Acquisition
+
+<details>
+<summary> Gather data from mySQL database</summary>
+
+- Create env.py file to establish connection to mySQL server
+
+- Use **telco_churn** database in the mySQL server
