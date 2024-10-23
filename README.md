@@ -60,3 +60,18 @@ In this project, we will use statistical testing to analyze the key factors of c
      SELECT * FROM customers JOIN contract_types USING (contract_type_id) JOIN payment_types ON customers.payment_type_id = payment_types.payment_type_id JOIN internet_service_types ON customers.internet_service_type_id = internet_service_types.internet_service_type_id
      ```
 </details>
+
+<details>
+<summary> acqure.py</summary>
+
+- Create acquire.py and user-defined function `get_telco_data()` to gather data from mySQL
+     ```sh
+     def get_telco_data():
+     
+     if os.path.isfile('telco.csv'):
+        df = pd.read_csv('telco.csv', index_col=0)
+    else:
+        df = new_telco_data()
+        df.to_csv('telco.csv')
+        
+    return df
