@@ -75,3 +75,14 @@ In this project, we will use statistical testing to analyze the key factors of c
         df.to_csv('telco.csv')
         
     return df
+
+        ```
+- Import [acquire.py](acquire.py)
+
+- Test acquire function
+
+- Calling the function, and store the table in the form of dataframe
+    ```sh
+    df = acquire.get_telco_data()
+    ```
+</details>
