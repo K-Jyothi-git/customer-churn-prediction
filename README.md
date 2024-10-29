@@ -86,3 +86,14 @@ In this project, we will use statistical testing to analyze the key factors of c
     df = acquire.get_telco_data()
     ```
 </details>
+
+#### Data Preparation
+
+<details>
+<summary> Data Cleaning</summary>
+
+- **Missing values: null values are dropped** (total_charges)
+     ```sh
+    df['total_charges'] = df['total_charges'].str.strip()
+    df = df[df.total_charges != '']
+    ```
