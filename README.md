@@ -97,3 +97,8 @@ In this project, we will use statistical testing to analyze the key factors of c
     df['total_charges'] = df['total_charges'].str.strip()
     df = df[df.total_charges != '']
     ```
+- **Data types: object is converted to the numeric datatype** (total_charges)
+     ```sh
+     df['total_charges'] = df.total_charges.astype(float)
+     ```
+- **Dummy variables: created dummy variables for binary and non-binary categorical variables**
