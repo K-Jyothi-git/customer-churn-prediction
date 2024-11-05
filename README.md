@@ -102,3 +102,14 @@ In this project, we will use statistical testing to analyze the key factors of c
      df['total_charges'] = df.total_charges.astype(float)
      ```
 - **Dummy variables: created dummy variables for binary and non-binary categorical variables**
+
+- **Duplicate columns: duplicated columns are dropped**
+
+- Create function `prep_telco` to clean and prepare data with steps above
+
+- Import [prepare.py](prepare.py)
+
+- Test prepare function
+
+- Call the function, and store the cleaned data in the form of dataframe
+</details>
