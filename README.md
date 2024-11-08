@@ -113,3 +113,20 @@ In this project, we will use statistical testing to analyze the key factors of c
 
 - Call the function, and store the cleaned data in the form of dataframe
 </details>
+
+<details>
+<summary> Data Splitting</summary>
+
+- Create function `split_telco_data()` to split data into **train, validate, test**
+
+- Test prepare function
+
+- Check the size of each dataset
+     ```sh
+     train.shape, validate.shape, test.shape
+     ```
+- Call the function, and store the 3 data samples separately in the form of dataframe
+     ```sh
+     train, validate, test = prepare.split_telco_data(df)
+     ```
+</details>
