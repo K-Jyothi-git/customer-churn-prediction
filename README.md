@@ -130,3 +130,14 @@ In this project, we will use statistical testing to analyze the key factors of c
      train, validate, test = prepare.split_telco_data(df)
      ```
 </details>
+
+#### Exploratory Analysis
+- Ask questions to find what are the key variables that are driving the churn
+
+- Gather and sort churn rate from each driver into .xlsx file
+
+- Import [churn_rates.xlsx](churn_rates.xlsx) and store the data in the form of dataframe
+
+- Create visualizations for the churn rate for each variable
+
+- Explore each feature's dependency with churn and create visualization for each
