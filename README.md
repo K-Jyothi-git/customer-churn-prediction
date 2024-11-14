@@ -141,3 +141,10 @@ In this project, we will use statistical testing to analyze the key factors of c
 - Create visualizations for the churn rate for each variable
 
 - Explore each feature's dependency with churn and create visualization for each
+
+#### Statistical Testing & Modeling
+- Conduct T-Test for categorical variable vs. numerical variable
+
+- Conduct Chi^2 Test for categorical variable vs. categorical variable
+
+- Conclude hypothesis and address the initial questions
