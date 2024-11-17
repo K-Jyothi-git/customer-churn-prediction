@@ -148,3 +148,24 @@ In this project, we will use statistical testing to analyze the key factors of c
 - Conduct Chi^2 Test for categorical variable vs. categorical variable
 
 - Conclude hypothesis and address the initial questions
+
+#### Modeling Evaluation
+- Create decision tree classifer and fit train dataset
+
+- Find the max depth for the best performing decision tree classifer (evaluated using classification report, accuracy score)
+
+- Create random forest classifier and fit train dataset
+
+- Find the max depth for the best performing random forest classifier (evaluated using classification report, accuracy score)
+
+- Create KNN classifier and fit train dataset
+
+- Find the k for the best performing KNN classifier (evaluated using classification report, accuracy score)
+
+- Create logistic regression model and fit train dataset
+
+- Find the parameter C for the best performing logistic regression model (evaluated using classification report, accuracy score)
+
+- Pick the top 3 models among all the models and evaluate performance on validate dataset
+
+- Pick the model with highest accuracy and evaluate on test dataset
