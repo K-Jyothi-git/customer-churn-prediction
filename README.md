@@ -169,3 +169,12 @@ In this project, we will use statistical testing to analyze the key factors of c
 - Pick the top 3 models among all the models and evaluate performance on validate dataset
 
 - Pick the model with highest accuracy and evaluate on test dataset
+
+
+## Steps to Reproduce
+- [x] You will need an **env.py** file that contains the hostname, username and password of the mySQL database that contains the telco table. Store that env file locally in the repository.
+- [x] Clone my repo (including the **acquire.py**, **prepare.py** and **churn_rates.xlsx**) 
+- [x] Confirm **.gitignore** is hiding your env.py file
+- [x] Libraries used are pandas, matplotlib, seaborn, plotly, sklearn, scipy
+- [x] Follow instructions in [telco_analysis](telco_analysis.ipynb) workbook and README file
+- [x] Good to run telco_report
