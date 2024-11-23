@@ -178,3 +178,15 @@ In this project, we will use statistical testing to analyze the key factors of c
 - [x] Libraries used are pandas, matplotlib, seaborn, plotly, sklearn, scipy
 - [x] Follow instructions in [telco_analysis](telco_analysis.ipynb) workbook and README file
 - [x] Good to run telco_report
+
+## Key Findings
+<img width="800" alt="churn_drivers" src="https://user-images.githubusercontent.com/105242871/179089814-967c69e9-7b54-433b-a310-aa11de46b94f.png">
+- The top 4 drivers of churn are:
+
+ - electronic payment type
+ 
+ - senior citizens
+ 
+ - month-to-month contract type
+ 
+ - fiber optic internet service type
