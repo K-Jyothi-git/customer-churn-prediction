@@ -190,3 +190,11 @@ In this project, we will use statistical testing to analyze the key factors of c
  - month-to-month contract type
  
  - fiber optic internet service type
+
+ - Average **monthly charges** is higher for customers who churn
+ 
+- Average **tenure** is shorter for customers who churn
+ 
+- Additional services (device protection, online security, online backup, tech support, streaming tv, streaming movies) are dependent on churn
+
+- The machine learning model: logistic regression classifier is expected to predict churn with **81% accuracy** on future unseen data
