@@ -198,3 +198,12 @@ In this project, we will use statistical testing to analyze the key factors of c
 - Additional services (device protection, online security, online backup, tech support, streaming tv, streaming movies) are dependent on churn
 
 - The machine learning model: logistic regression classifier is expected to predict churn with **81% accuracy** on future unseen data
+
+## Recommendations
+- Raise price of month-to-month contract type and offer discounts for two-year contract to lead customers towards the other two contract types
+
+- Offer discount on device protection, streaming tv and streaming movies services
+
+- Offer online security, online backup, tech support services for free for one-year and two-year contracts customers
+
+<img width="985" alt="revenue_predictions" src="https://user-images.githubusercontent.com/105242871/179146421-9d27fc1f-9e83-4f54-b2ac-eef1f6048a26.png">
