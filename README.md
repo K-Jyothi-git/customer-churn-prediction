@@ -213,3 +213,4 @@ In this project, we will use statistical testing to analyze the key factors of c
 
 - Develop machine learning models with higher accuracy with these additional data and more accurate features.
 
+- Conduct **price discrimination analysis** to further determine the price point for each contract type and service.
